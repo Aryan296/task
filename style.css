@@ -1,4 +1,7 @@
 /* First letter CSS Task 1 */
+#section2{
+    padding-top: 100px;
+}
     #hvr3{
         width: 200px;
         height: 200px;
@@ -16,16 +19,39 @@
     #hvr4{
         width: 320px;
     }
+    #hvr5{
+        color: gainsboro;
+        letter-spacing: 5px;
+    }
+    #sub-home{
+        background-color: white;
+    }
     #home{
         box-shadow: 3px 5px 18px grey;
-        
+        background-color: rgb(236, 236, 236);
     }
     #home2{
         box-shadow: 2px 2px 35px grey;
         color: #0022ff;
     }
+    #about{
+        border-top:4px solid #D3D3D3;
+    }
+    .content{
+        background-color:#E5E4E2;
+        padding-left:80px;
+        padding-right:80px;
+        padding-bottom:10px;
+        border:4px solid #D3D3D3;
+    }
+    .boxes{
+        border:3px solid #D3D3D3;
+    }
+ @media screen and (max-width:100vw) {
 
-@media screen and (max-width:100vw) {
+    #section2{
+        padding-top: 1px;
+    }
     #hvr::first-letter{
         color: #87CEFA;
         font-size: 30px;
@@ -42,23 +68,32 @@
     #hvr4{
         width: 320px;
     }
+    #hvr5{
+        color: #87CEFA;
+        letter-spacing: normal;
+    }
+    #sub-home{
+        background-color: white;
+    }
     #home{
-        box-shadow: 5px 10px 18px grey;
+        box-shadow: 3px 5px 18px grey;
+        background-color: rgb(236, 236, 236);
     }
     #home2{
         box-shadow: 2px 2px 35px grey;
     }
-}
-#about{
-	border-top:4px solid #D3D3D3;
-}
-.content{
-	background-color:#E5E4E2;
-	padding-left:80px;
-	padding-right:80px;
-	padding-bottom:10px;
-	border:4px solid #D3D3D3;
-}
-#boxes{
-	border:3px solid #D3D3D3;
-}
+    #about{
+        border-top:4px solid #D3D3D3;
+    }
+    .content{
+        background-color:#E5E4E2;
+        padding-left:80px;
+        padding-right:80px;
+        padding-bottom:10px;
+        border:4px solid #D3D3D3;
+    }
+    .boxes{
+        border:3px solid #D3D3D3;
+    }
+} 
+
